@@ -34,7 +34,7 @@ This file is the handoff point for continuing Misconception Atlas work without r
 - Product boundary: teacher-facing misconception diagnosis, clustering, intervention, and review—not grading or generic tutoring.
 - Proposed stack accepted: Next.js, React, TypeScript, Tailwind CSS, Zod, OpenAI Responses API with GPT-5.6, Vitest, Playwright, and Vercel.
 - No production database or authentication in the Build Week MVP.
-- Public repository license: MIT.
+- Public repository license: existing MIT license confirmed and accepted.
 - `TASK-001` accepted on 2026-07-15 with implementation permitted only after PR #1 is merged.
 
 ## Work completed on the current branch
@@ -44,9 +44,9 @@ This file is the handoff point for continuing Misconception Atlas work without r
 - Recorded Build Week rules at `docs/BUILD_WEEK_REQUIREMENTS.md`.
 - Added `PROJECT_STATUS.md`.
 - Added this continuation record.
-- Expanded the README to route contributors to authoritative project files.
+- Expanded the README to route contributors to authoritative project files and the MIT license.
 - Added and accepted `docs/tasks/TASK-001-application-scaffold.md`.
-- Added the MIT `LICENSE` file.
+- Confirmed the existing MIT `LICENSE` file on `main` and the foundation branch.
 - Recorded the project owner's approval of PR #1 without merging it.
 
 ## Verification completed
@@ -54,7 +54,8 @@ This file is the handoff point for continuing Misconception Atlas work without r
 - Reviewed PR #1 and confirmed it is open, draft at the start of this approval work, and mergeable.
 - Reviewed the complete `TASK-001` scope and acceptance criteria.
 - Verified that `TASK-001` excludes live OpenAI calls, image processing, deterministic slab calculations, misconception clustering, persistence, authentication, deployment, and Devpost media.
-- Documentation and license changes were written only to `chore/project-foundation`.
+- Verified that the existing `LICENSE` file contains the MIT License text.
+- Documentation changes were written only to `chore/project-foundation`.
 - No application tests exist yet because product implementation has not started.
 
 ## Known limitations
