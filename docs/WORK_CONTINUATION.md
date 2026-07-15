@@ -17,9 +17,12 @@ This file is the handoff point for continuing Misconception Atlas work without r
 - Date: 2026-07-15
 - Branch: `chore/project-foundation`
 - Base branch: `main`
+- Pull request: #1
 - Accepted specification: `MA-MVP-001`
+- Accepted task: `TASK-001`
+- License: MIT
 - Implementation state: no product code exists
-- Current work: repository governance and foundation documentation
+- Current work: finalizing approved repository governance and foundation documentation
 
 ## Material decisions
 
@@ -31,6 +34,8 @@ This file is the handoff point for continuing Misconception Atlas work without r
 - Product boundary: teacher-facing misconception diagnosis, clustering, intervention, and review—not grading or generic tutoring.
 - Proposed stack accepted: Next.js, React, TypeScript, Tailwind CSS, Zod, OpenAI Responses API with GPT-5.6, Vitest, Playwright, and Vercel.
 - No production database or authentication in the Build Week MVP.
+- Public repository license: MIT.
+- `TASK-001` accepted on 2026-07-15 with implementation permitted only after PR #1 is merged.
 
 ## Work completed on the current branch
 
@@ -39,22 +44,29 @@ This file is the handoff point for continuing Misconception Atlas work without r
 - Recorded Build Week rules at `docs/BUILD_WEEK_REQUIREMENTS.md`.
 - Added `PROJECT_STATUS.md`.
 - Added this continuation record.
+- Expanded the README to route contributors to authoritative project files.
+- Added and accepted `docs/tasks/TASK-001-application-scaffold.md`.
+- Added the MIT `LICENSE` file.
+- Recorded the project owner's approval of PR #1 without merging it.
 
 ## Verification completed
 
-Documentation presence and contents were verified through GitHub file responses as each file was created. No application tests exist yet because product implementation has not started.
+- Reviewed PR #1 and confirmed it is open, draft at the start of this approval work, and mergeable.
+- Reviewed the complete `TASK-001` scope and acceptance criteria.
+- Verified that `TASK-001` excludes live OpenAI calls, image processing, deterministic slab calculations, misconception clustering, persistence, authentication, deployment, and Devpost media.
+- Documentation and license changes were written only to `chore/project-foundation`.
+- No application tests exist yet because product implementation has not started.
 
 ## Known limitations
 
-- The foundation branch has not been merged.
-- The README is still minimal until updated on this branch.
-- A public license has not been selected.
-- No task brief for application scaffolding has been accepted.
-- No primary Codex session ID has been captured.
-- No live API, UI, fixture set, deterministic checker, tests, or deployment exists.
+- PR #1 has not been merged.
+- `feat/application-scaffold` has not been created.
+- No product code, package manifest, live API, UI implementation, fixture set, deterministic checker, tests, or deployment exists.
+- No primary Codex `/feedback` Session ID has been captured.
+- Final Devpost content and media remain incomplete.
 
 ## Safe next step
 
-Update the README to route contributors to the accepted specification and project status, then open a reviewable pull request for the foundation documentation. Do not merge without Earl's explicit approval.
+Merge PR #1 only after explicit merge authorization. After the merge is confirmed, create `feat/application-scaffold` from the updated `main` branch and implement only accepted `TASK-001`.
 
-After the foundation is accepted and merged, prepare a separate scoped task brief for application scaffolding. Do not combine live GPT-5.6 integration into the scaffold task.
+Do not combine GPT-5.6 integration, image analysis, deterministic misconception logic, clustering, persistence, authentication, deployment, or Devpost media into the scaffold task.
