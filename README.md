@@ -6,9 +6,10 @@ Misconception Atlas is an **Education** submission for OpenAI Build Week. The Bu
 
 ## Current status
 
-The project is in specification and repository-foundation setup. Product implementation has not started.
+The project foundation and first scaffold task are accepted. Product implementation has not started.
 
 - Accepted specification: [`docs/specs/MA-MVP-001.md`](docs/specs/MA-MVP-001.md)
+- Accepted scaffold task: [`docs/tasks/TASK-001-application-scaffold.md`](docs/tasks/TASK-001-application-scaffold.md)
 - Current status: [`PROJECT_STATUS.md`](PROJECT_STATUS.md)
 - Continuation record: [`docs/WORK_CONTINUATION.md`](docs/WORK_CONTINUATION.md)
 - Build Week requirements: [`docs/BUILD_WEEK_REQUIREMENTS.md`](docs/BUILD_WEEK_REQUIREMENTS.md)
@@ -69,3 +70,7 @@ Development is specification-driven:
 6. Record material scope changes as amendments before implementation.
 
 Setup, execution, testing, deployment, sample-data instructions, measured evaluation results, and the Codex/GPT-5.6 workflow will be added as the corresponding implementation is completed and verified.
+
+## License
+
+Misconception Atlas is licensed under the [MIT License](LICENSE).
