@@ -6,9 +6,12 @@
 - Competition: OpenAI Build Week
 - Category: Education
 - Repository: `invicta-ctrl/Misconception-Atlas`
-- Status: foundation documentation in progress
+- Status: project foundation approved and awaiting merge
 - Accepted specification: `docs/specs/MA-MVP-001.md`
+- Accepted task: `docs/tasks/TASK-001-application-scaffold.md`
 - Active setup branch: `chore/project-foundation`
+- Planned implementation branch: `feat/application-scaffold`
+- License: MIT
 - Product implementation: not started
 - Deployment: not started
 - Primary Codex `/feedback` Session ID: not yet captured
@@ -25,11 +28,13 @@ The accepted vertical slice is a teacher-facing web application that analyzes an
 - `MA-MVP-001` accepted by Earl Adriano on 2026-07-15.
 - Repository agent rules created on the foundation branch.
 - Build Week requirements recorded on the foundation branch.
+- `TASK-001` accepted by Earl Adriano on 2026-07-15.
+- MIT selected as the public repository license.
+- PR #1 approved by the project owner for merge, but not merged.
 
 ## In progress
 
-- Establishing authoritative project documentation.
-- Preparing the first scoped implementation task brief.
+- Finalizing the project-foundation pull request.
 
 ## Not started
 
@@ -44,19 +49,21 @@ The accepted vertical slice is a teacher-facing web application that analyzes an
 - Vercel deployment.
 - Thumbnail, image gallery, demonstration video, and final Devpost story.
 
-## Blocking owner decision
+## Blocking state
 
-- Select the public repository license before final submission. Recommended default: MIT, unless Earl wants a different license.
+- PR #1 must be merged before implementation begins on `feat/application-scaffold`.
+- No other owner decision currently blocks TASK-001.
 
 ## Next accepted work unit
 
-Prepare and approve a scoped foundation task brief for:
+Implement `TASK-001` on `feat/application-scaffold` after PR #1 is merged:
 
 1. Next.js, React, and TypeScript scaffold;
-2. lint, type-check, test, and build commands;
-3. initial folder boundaries;
-4. environment-variable example without secrets;
-5. static sample-assignment page;
-6. no live OpenAI integration yet.
+2. Tailwind CSS configuration;
+3. lint, type-check, Vitest, build, and Playwright commands;
+4. initial folder boundaries;
+5. environment-variable example without secrets;
+6. static teacher-facing project shell;
+7. no live OpenAI integration or misconception-analysis behavior.
 
-No product behavior beyond this work unit should be implemented until its task brief is accepted.
+No product behavior beyond this work unit should be implemented without an accepted amendment or task brief.
