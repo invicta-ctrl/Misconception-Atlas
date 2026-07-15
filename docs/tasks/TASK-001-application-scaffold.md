@@ -4,10 +4,11 @@
 
 - Project: Misconception Atlas
 - Task ID: `TASK-001`
-- Status: draft — awaiting owner acceptance
+- Status: accepted
 - Accepted specification: `docs/specs/MA-MVP-001.md`
-- Proposed branch: `feat/application-scaffold`
+- Implementation branch: `feat/application-scaffold`
 - Owner: Earl Adriano
+- Date accepted: 2026-07-15
 
 ## INTENT
 
@@ -137,6 +138,6 @@ Stop and request an amendment or owner decision when:
 
 ## ACCEPTANCE RECORD
 
-- Accepted by: pending
-- Acceptance date: pending
-- Conditions: pending
+- Accepted by: Earl Adriano
+- Acceptance date: 2026-07-15
+- Conditions: Implement only after PR #1 is merged. Keep live GPT-5.6 integration, image analysis, deterministic slab logic, clustering, persistence, authentication, deployment, and Devpost media outside this task.
